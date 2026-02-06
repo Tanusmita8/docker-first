@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Hello from FRONTEND container</h1>
+    <script>
+      fetch("http://localhost:5000/api")
+        .then(res => res.json())
+        .then(data => console.log(data));
+    </script>
+  </body>
+</html>
